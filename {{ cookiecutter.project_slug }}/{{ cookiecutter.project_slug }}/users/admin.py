@@ -34,8 +34,8 @@ class UserAdmin(auth_admin.UserAdmin):
                 "fields": (
                     "username",
                     "password",
-                )m
-            }m
+                )
+            }
         ),
         (_("Personal info"), {"fields": ("name", "email")}),
         {%- endif %}
